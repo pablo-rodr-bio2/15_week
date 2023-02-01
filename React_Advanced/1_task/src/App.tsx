@@ -7,6 +7,7 @@ import ForwardRefExample from './components/forwardRef/forwardRefExample';
 import ErrorBoundaryExample from './components/errorBoundaries/errorBoundariesExample';
 import ErrorComponent from './components/errorBoundaries/ErrorComponent';
 import Portal from './components/Portals/Portal';
+import ControlledComponent from './components/errorBoundaries/ControlledVsUncontrolled/ControlledComponent';
 
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
       </ErrorBoundaryExample>
       <hr />
       <Portal />
+      <hr />
+      <ControlledComponent />
     </div>
   );
 }
